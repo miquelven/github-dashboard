@@ -1,7 +1,6 @@
-"use client";
-
 import { Container, Grid, GridItem } from "@chakra-ui/react";
 import LanguagePieChart from "./LanguagePieChart";
+import TopRepositoriesChart from "./TopRepositoriesChart";
 
 export default function DashboardArea() {
   return (
@@ -11,11 +10,11 @@ export default function DashboardArea() {
           <LanguagePieChart />
         </GridItem>
 
-        {/* <GridItem display="flex" justifyContent="center">
-          <LanguagePieChart />
+        <GridItem display="flex" justifyContent="center">
+          <TopRepositoriesChart />
         </GridItem>
 
-        <GridItem display="flex" justifyContent="end">
+        {/* <GridItem display="flex" justifyContent="end">
           <LanguagePieChart />
         </GridItem> */}
       </Grid>
