@@ -6,6 +6,7 @@ const config = defineConfig({
       colors: {
         background: { value: "#0d1117" },
         backgroundSecondary: { value: "#161b22" },
+        backgroundItem: { value: "#21262d" },
         textPrimary: { value: "#E6EDF3" },
         textSecondary: { value: "#8b949e" },
         blue: { value: "#58a6ff" },

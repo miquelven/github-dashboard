@@ -31,6 +31,7 @@ export default function LanguagePieChart() {
         fontWeight="bold"
         fontFamily="body"
         color="textPrimary"
+        mb={4}
       >
         Distribuição de Linguagens
       </Text>

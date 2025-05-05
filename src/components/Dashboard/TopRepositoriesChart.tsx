@@ -23,7 +23,7 @@ export default function TopRepositoriesChart() {
       justifyContent="center"
     >
       <Text
-        fontSize="xl"
+        fontSize="2xl"
         fontWeight="bold"
         fontFamily="body"
         color="textPrimary"
@@ -32,7 +32,7 @@ export default function TopRepositoriesChart() {
         Top Repositórios por Estrelas
       </Text>
 
-      <Chart.Root maxH="sm" w="100%" maxW="600px" chart={chart}>
+      <Chart.Root maxH="340px" w="100%" maxW="600px" chart={chart}>
         <BarChart data={chart.data}>
           <CartesianGrid stroke={chart.color("border")} vertical={false} />
           <XAxis
